@@ -3,6 +3,8 @@
 ---
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTARTRL_Lab)](https://twitter.com/TARTRL_Lab)
 
+[![Documentation Status](https://readthedocs.org/projects/tartrl-docs/badge/?version=latest)](https://tartrl-docs.readthedocs.io/zh/latest/?badge=latest)
+
 ![GitHub Org's stars](https://img.shields.io/github/stars/TARTRL)
 [![GitHub stars](https://img.shields.io/github/stars/TARTRL/TARTRL)](https://github.com/opendilab/TARTRL/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/TARTRL/TARTRL)](https://github.com/TARTRL/TARTRL/network)
@@ -13,6 +15,8 @@
 [![GitHub license](https://img.shields.io/github/license/TARTRL/TARTRL)](https://github.com/TARTRL/TARTRL/blob/master/LICENSE)
 
 ## 欢迎来到TARTRL
+
+[Documentation](https://tartrl-docs.readthedocs.io/en/latest/) | [中文文档](https://tartrl-docs.readthedocs.io/zh/latest/)
 
 TARTRL是一个开源的强化学习框架。
 
