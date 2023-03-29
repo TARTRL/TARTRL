@@ -16,7 +16,7 @@
 
 ## 欢迎来到TARTRL
 
-[Documentation](https://tartrl-docs.readthedocs.io/en/latest/) | [中文文档](https://tartrl-docs.readthedocs.io/zh/latest/)
+[中文文档](https://tartrl-docs.readthedocs.io/zh/latest/) | [Documentation](https://tartrl-docs.readthedocs.io/en/latest/)
 
 TARTRL是一个开源的强化学习框架。
 
