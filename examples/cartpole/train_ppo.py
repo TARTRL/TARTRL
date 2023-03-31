@@ -14,21 +14,35 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""
-一个简单的训练例子，使用PPO算法训练CartPole-v1环境
-"""
+""""""
 
-import gymnasium as gym
-
+from tartrl.envs import make
 from tartrl.modules.common import PPONet as Net
 from tartrl.runners.common import PPOAgent as Agent
 
-
 # 创建 环境
-env = gym.make("CartPole-v1")
+render_model = "rgb_array"
+
+env = make("CartPole-v0", render_mode=render_model)
 # 创建 神经网络
 net = Net(env)
 # 初始化训练器
-agent = Agent(net)
+agent = Agent(net, use_wandb=False)
 # 开始训练
 agent.train(total_time_steps=20000)
+
+# 开始测试环境
+render_model = "human"
+env = make("CartPole-v0", render_mode=render_model)
+obs, info = env.reset()
+done = False
+step = 0
+while not done:
+    # 智能体根据 observation 预测下一个动作
+    action, _ = agent.act(obs, deterministic=True)
+    obs, r, done, info = env.step(action)
+
+    step += 1
+    print(f"{step}: action:{action}, reward:{r}")
+
+env.close()
