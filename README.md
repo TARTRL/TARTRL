@@ -4,7 +4,14 @@
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTARTRL_Lab)](https://twitter.com/TARTRL_Lab)
 [![PyPI](https://img.shields.io/pypi/v/TARTRL)](https://pypi.org/project/TARTRL/)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/TARTRL)
+[![Anaconda-Server Badge](https://anaconda.org/tartrl/tartrl/badges/version.svg)](https://anaconda.org/tartrl/tartrl)
+[![Anaconda-Server Badge](https://anaconda.org/tartrl/tartrl/badges/latest_release_date.svg)](https://anaconda.org/tartrl/tartrl)
+[![Anaconda-Server Badge](https://anaconda.org/tartrl/tartrl/badges/downloads.svg)](https://anaconda.org/tartrl/tartrl)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
+[![Hits-of-Code](https://hitsofcode.com/github/TARTRL/TARTRL?branch=main)](https://hitsofcode.com/github/TARTRL/TARTRL/view?branch=main)
+
 
 [![Documentation Status](https://readthedocs.org/projects/tartrl-docs/badge/?version=latest)](https://tartrl-docs.readthedocs.io/zh/latest/?badge=latest)
 [![Read the Docs](https://img.shields.io/readthedocs/tartrl-docs-zh?label=%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3)](https://tartrl-docs.readthedocs.io/zh/latest/)
@@ -31,8 +38,8 @@ TARTRL是一个开源的强化学习框架。
 - [安装](#安装)
 - [快速上手](#快速上手)
 - [支持者](#支持者)
-    - [&#8627; Stargazers](#-stargazers)
-    - [&#8627; Forkers](#-forkers)
+  - [&#8627; Stargazers](#-stargazers)
+  - [&#8627; Forkers](#-forkers)
 - [Citing TARTRL](#citing-tartrl)
 - [License](#license)
 - [致谢](#致谢)
@@ -46,7 +53,6 @@ pip install tartrl
 ## 快速上手
 
 可以通过命令行快速训练`CartPole`环境:
-
 ```bash
 tartrl --mode train --env CartPole-v0
 ```
@@ -64,7 +70,6 @@ tartrl --mode train --env CartPole-v0
 ## Citing TARTRL
 
 如果我们的工作对你有帮助，欢迎引用我们的论文:
-
 ```latex
 @misc{tartrl2023,
     title={TARTRL},
@@ -75,8 +80,11 @@ tartrl --mode train --env CartPole-v0
 }
 ```
 
-## License
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=TARTRL/TARTRL&type=Date)](https://star-history.com/#TARTRL/TARTRL&Date)
+
+## License
 TARTRL under the Apache 2.0 license.
 
 ## 致谢
