@@ -24,6 +24,7 @@ import setuptools
 def get_install_requires() -> list:
     return [
         "setuptools>=50.0",
+        "treevalue",
     ]
 
 
