@@ -11,7 +11,7 @@
 
 
 [![Hits-of-Code](https://hitsofcode.com/github/TARTRL/TARTRL?branch=main)](https://hitsofcode.com/github/TARTRL/TARTRL/view?branch=main)
-
+[![codecov](https://codecov.io/github/TARTRL/TARTRL/branch/main/graph/badge.svg?token=S028HU7Z1L)](https://codecov.io/github/TARTRL/TARTRL)
 
 [![Documentation Status](https://readthedocs.org/projects/tartrl-docs/badge/?version=latest)](https://tartrl-docs.readthedocs.io/zh/latest/?badge=latest)
 [![Read the Docs](https://img.shields.io/readthedocs/tartrl-docs-zh?label=%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3)](https://tartrl-docs.readthedocs.io/zh/latest/)
