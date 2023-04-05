@@ -22,10 +22,7 @@ import setuptools
 
 
 def get_install_requires() -> list:
-    return [
-        "setuptools>=50.0",
-        "treevalue",
-    ]
+    return ["setuptools>=50.0", "treevalue", "numpy"]
 
 
 def get_extra_requires() -> dict:
